@@ -83,7 +83,7 @@ class ClanwarsPage extends SortablePage
 
         $this->playedClanwarsDraw = $row['playedClanwarsDraw'];
 
-        if ($this->playedClanwarsWon !== 0 || $this->playedClanwarsLoss !== 0) {
+        if ($this->playedClanwarsLoss !== 0) {
             $this->playedClanwarsRatio = round($this->playedClanwarsWon / $this->playedClanwarsLoss, 2);
         } else {
             $this->playedClanwarsRatio = 0;
