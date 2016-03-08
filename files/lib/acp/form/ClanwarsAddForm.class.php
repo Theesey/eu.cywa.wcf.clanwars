@@ -100,10 +100,6 @@ class ClanwarsAddForm extends AbstractForm {
         if (empty($this->time)) {
             throw new UserInputException('time','empty');
         }
-
-        //if (!DateUtil::validateDate($this->time)) {
-        //    throw new UserInputException('time','');
-        //}
     }
 
     /**
@@ -125,6 +121,10 @@ class ClanwarsAddForm extends AbstractForm {
      * convert iso time in unix format
      */
     public function validateTime() {
+        //if (!DateUtil::validateDate($this->time)) {
+        //    throw new UserInputException('time','');
+        //}
+
         $this->time = strtotime($this->time);
     }
 
