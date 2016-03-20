@@ -78,7 +78,7 @@
                 <td style="text-align:center;">{if $cw->platform == "ps3"}<img src="{$__wcf->getPath()}images/clanwars/ps3.png" alt="PS3">{elseif $cw->platform == "ps4"}<img src="{$__wcf->getPath()}images/clanwars/ps4.png" alt="PS4">{else}<img src="{$__wcf->getPath()}images/clanwars/pc.png" alt="PC">{/if}</td>
                 <td>{if $cw->status == "1"}<span style="color:#008000;">Gewonnen</span>{elseif $cw->status == "x"}<span style="color:#D5C400;">Unentschieden</span>{else}<span style="color:#f00;">Verloren</span>{/if}</td>
                 <td>{@$cw->time|time}</td>
-                <td>{if !$cw->clanlink}<a href="{$cw->clanlink}" title="{$cw->clanname}">{$cw->clanname}</a>{else}{$cw->clanname}{/if}</td>
+                <td>{if $cw->clanlink}<a href="{$cw->clanlink}" title="{$cw->clanname}">{$cw->clanname}</a>{else}{$cw->clanname}{/if}</td>
                 <td>{$cw->clantag}</td>
                 <td><span style="color: {if $cw->result_h > $cw->result_g}#008000{elseif $cw->result_h == $cw->result_g}#D5C400{else}#F00{/if}">{$cw->result_h}:{$cw->result_g}</span></td>
                 <td>{$cw->gametype}</td>
