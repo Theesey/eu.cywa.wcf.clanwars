@@ -21,7 +21,7 @@ class ClanwarsPage extends SortablePage
     public $clanwars = null;
     public $defaultSortField = 'time';
     public $objectListClassName = 'wcf\data\clanwars\ClanwarsList';
-    public $activeMenuItem = 'wcf.page.clanwars';
+    public $activeMenuItem = 'wcf.header.menu.clanwars';
     public $neededPermissions = array('user.board.clanwars.canView');
     public $defaultSortOrder = 'DESC';
     public $itemsPerPage = 20;
