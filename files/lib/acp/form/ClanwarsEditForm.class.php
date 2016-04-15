@@ -15,8 +15,8 @@ use wcf\system\WCF;
  */
 class ClanwarsEditForm extends ClanwarsAddForm {
 
-    public $activeMenuItem = 'wcf.acp.menu.link.clanwars';
-    public $templateName = 'clanwarsList';
+    public $activeMenuItem = 'wcf.acp.menu.link.community.clanwars.list';
+    //public $templateName = 'clanwarsList';
     public $clanwarID = 0;
     public $cw = null;
 

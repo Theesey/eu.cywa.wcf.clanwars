@@ -21,7 +21,7 @@ class ClanwarsPage extends SortablePage
     public $clanwars = null;
     public $defaultSortField = 'time';
     public $objectListClassName = 'wcf\data\clanwars\ClanwarsList';
-    public $activeMenuItem = 'wcf.page.clanwars';
+    public $activeMenuItem = 'wcf.header.menu.clanwars';
     public $neededPermissions = array('user.board.clanwars.canView');
     public $defaultSortOrder = 'DESC';
     public $itemsPerPage = 20;
@@ -83,7 +83,7 @@ class ClanwarsPage extends SortablePage
 
         $this->playedClanwarsDraw = $row['playedClanwarsDraw'];
 
-        if ($this->playedClanwarsWon !== 0 || $this->playedClanwarsLoss !== 0) {
+        if ($this->playedClanwarsLoss !== 0) {
             $this->playedClanwarsRatio = round($this->playedClanwarsWon / $this->playedClanwarsLoss, 2);
         } else {
             $this->playedClanwarsRatio = 0;
