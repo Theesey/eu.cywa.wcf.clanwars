@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="en">
+    <category name="wcf.acp.clanwars">
+        <item name="wcf.acp.clanwars.list"><![CDATA[List matches]]></item>
+        <item name="wcf.acp.clanwars.add"><![CDATA[Add match]]></item>
+        <item name="wcf.acp.clanwars.edit"><![CDATA[Edit match]]></item>
+        <item name="wcf.acp.clanwars.game"><![CDATA[Game]]></item>
+        <item name="wcf.acp.clanwars.game.bf4"><![CDATA[Battlefield 4]]></item>
+        <item name="wcf.acp.clanwars.game.bfh"><![CDATA[Battlefield Hardline]]></item>
+        <item name="wcf.acp.clanwars.game.csgo"><![CDATA[Counter Strike Global Offensive]]></item>
+        <item name="wcf.acp.clanwars.game.ro2"><![CDATA[Red Orchestra 2]]></item>
+        <item name="wcf.acp.clanwars.platform"><![CDATA[Platform]]></item>
+        <item name="wcf.acp.clanwars.platform.ps3"><![CDATA[PlayStation 3]]></item>
+        <item name="wcf.acp.clanwars.platform.ps4"><![CDATA[PlayStation 4]]></item>
+        <item name="wcf.acp.clanwars.platform.pc"><![CDATA[PC]]></item>
+        <item name="wcf.acp.clanwars.status"><![CDATA[Status]]></item>
+        <item name="wcf.acp.clanwars.result"><![CDATA[Result]]></item>
+        <item name="wcf.acp.clanwars.time"><![CDATA[Date]]></item>
+        <item name="wcf.acp.clanwars.clanname"><![CDATA[Clanname]]></item>
+        <item name="wcf.acp.clanwars.clantag"><![CDATA[Clantag]]></item>
+        <item name="wcf.acp.clanwars.clanlink"><![CDATA[Link to website]]></item>
+        <item name="wcf.acp.clanwars.gametype"><![CDATA[Gametype]]></item>
+        <item name="wcf.acp.clanwars.xonx"><![CDATA[XonX]]></item>
+        <item name="wcf.acp.clanwars.xonx.2on2"><![CDATA[2vs2]]></item>
+        <item name="wcf.acp.clanwars.xonx.3on3"><![CDATA[3vs3]]></item>
+        <item name="wcf.acp.clanwars.xonx.4on4"><![CDATA[4vs4]]></item>
+        <item name="wcf.acp.clanwars.xonx.5on5"><![CDATA[5vs5]]></item>
+        <item name="wcf.acp.clanwars.xonx.6on6"><![CDATA[6vs6]]></item>
+        <item name="wcf.acp.clanwars.xonx.7on7"><![CDATA[7vs7]]></item>
+        <item name="wcf.acp.clanwars.xonx.8on8"><![CDATA[8vs8]]></item>
+        <item name="wcf.acp.clanwars.xonx.9on9"><![CDATA[9vs9]]></item>
+        <item name="wcf.acp.clanwars.xonx.10on10"><![CDATA[10vs10]]></item>
+        <item name="wcf.acp.clanwars.xonx.11on11"><![CDATA[11vs11]]></item>
+        <item name="wcf.acp.clanwars.xonx.12on12"><![CDATA[12vs12]]></item>
+        <item name="wcf.acp.clanwars.league"><![CDATA[League]]></item>
+        <item name="wcf.acp.clanwars.maps"><![CDATA[Maps]]></item>
+        <item name="wcf.acp.clanwars.notes"><![CDATA[Comment]]></item>
+        <item name="wcf.acp.clanwars.delete"><![CDATA[Do you really want to delete these match?]]></item>
+    </category>
+    <category name="wcf.acp">
+        <item name="wcf.acp.menu.link.community.clanwars"><![CDATA[Clanwars]]></item>
+        <item name="wcf.acp.menu.link.community.clanwars.list"><![CDATA[List matches]]></item>
+        <item name="wcf.acp.menu.link.community.clanwars.add"><![CDATA[Add match]]></item>
+        <item name="wcf.acp.menu.link.community.clanwars.games"><![CDATA[Games]]></item>
+        <item name="wcf.acp.menu.link.community.clanwars.games.list"><![CDATA[List games]]></item>
+        <item name="wcf.acp.menu.link.community.clanwars.games.add"><![CDATA[Add games]]></item>
+        <item name="wcf.acp.group.option.category.user.board.clanwars"><![CDATA[Clanwars]]></item>
+        <item name="wcf.acp.group.option.category.admin.community.clanwars"><![CDATA[Clanwars]]></item>
+        <item name="wcf.acp.group.option.user.board.clanwars.canView"><![CDATA[Can view clanwars pageKann Clanwars Seite sehen]]></item>
+        <item name="wcf.acp.group.option.admin.community.clanwars.canView"><![CDATA[Can view matches]]></item>
+        <item name="wcf.acp.group.option.admin.community.clanwars.canAdd"><![CDATA[Can add  matches]]></item>
+        <item name="wcf.acp.group.option.admin.community.clanwars.canEdit"><![CDATA[Can edit matches]]></item>
+        <item name="wcf.acp.group.option.admin.community.clanwars.canDelete"><![CDATA[Can delete matches]]></item>
+    </category>
+    <category name="wcf.clanwars">
+        <item name="wcf.clanwars.headline"><![CDATA[Clanwars]]></item>
+        <item name="wcf.clanwars.game"><![CDATA[Game]]></item>
+        <item name="wcf.clanwars.platform"><![CDATA[Platform]]></item>
+        <item name="wcf.clanwars.status"><![CDATA[Status]]></item>
+        <item name="wcf.clanwars.result"><![CDATA[Result]]></item>
+        <item name="wcf.clanwars.time"><![CDATA[Date]]></item>
+        <item name="wcf.clanwars.clanname"><![CDATA[Clanname]]></item>
+        <item name="wcf.clanwars.clantag"><![CDATA[Clantag]]></item>
+        <item name="wcf.clanwars.clanlink"><![CDATA[Link to website]]></item>
+        <item name="wcf.clanwars.gametype"><![CDATA[Gametype]]></item>
+        <item name="wcf.clanwars.xonx"><![CDATA[XonX]]></item>
+        <item name="wcf.clanwars.league"><![CDATA[League]]></item>
+        <item name="wcf.clanwars.maps"><![CDATA[Maps]]></item>
+        <item name="wcf.clanwars.notes"><![CDATA[Comment]]></item>
+    </category>
+    <category name="wcf.clanwars.sidebar">
+        <item name="wcf.clanwars.sidebar.fightUs"><![CDATA[Fight us!]]></item>
+        <item name="wcf.clanwars.sidebar.statistic"><![CDATA[Statistic]]></item>
+        <item name="wcf.clanwars.sidebar.statistic.total"><![CDATA[Played matches]]></item>
+        <item name="wcf.clanwars.sidebar.statistic.won"><![CDATA[Won matches]]></item>
+        <item name="wcf.clanwars.sidebar.statistic.draw"><![CDATA[Draw matches]]></item>
+        <item name="wcf.clanwars.sidebar.statistic.loss"><![CDATA[Lost matches]]></item>
+        <item name="wcf.clanwars.sidebar.statistic.ratio"><![CDATA[W/L Ratio]]></item>
+    </category>
+    <category name="wcf.page">
+        <item name="wcf.page.clanwars"><![CDATA[Clanwars]]></item>
+    </category>
+    <category name="wcf.header.menu">
+        <item name="wcf.header.menu.clanwars"><![CDATA[Clanwars]]></item>
+    </category>
+</language>
