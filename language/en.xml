@@ -46,7 +46,7 @@
         <item name="wcf.acp.menu.link.community.clanwars.games.add"><![CDATA[Add games]]></item>
         <item name="wcf.acp.group.option.category.user.board.clanwars"><![CDATA[Clanwars]]></item>
         <item name="wcf.acp.group.option.category.admin.community.clanwars"><![CDATA[Clanwars]]></item>
-        <item name="wcf.acp.group.option.user.board.clanwars.canView"><![CDATA[Can view clanwars pageKann Clanwars Seite sehen]]></item>
+        <item name="wcf.acp.group.option.user.board.clanwars.canView"><![CDATA[Can view clanwars page]]></item>
         <item name="wcf.acp.group.option.admin.community.clanwars.canView"><![CDATA[Can view matches]]></item>
         <item name="wcf.acp.group.option.admin.community.clanwars.canAdd"><![CDATA[Can add  matches]]></item>
         <item name="wcf.acp.group.option.admin.community.clanwars.canEdit"><![CDATA[Can edit matches]]></item>
