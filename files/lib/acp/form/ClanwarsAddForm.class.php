@@ -202,4 +202,3 @@ class ClanwarsAddForm extends AbstractForm {
         ));
     }
 }
-?>

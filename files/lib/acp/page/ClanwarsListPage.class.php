@@ -23,4 +23,3 @@ class ClanwarsListPage extends SortablePage {
     public $validSortFields = array('game','platform','status','result','time','clanname','clantag','gametype');
 
 }
-?>
