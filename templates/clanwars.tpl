@@ -25,13 +25,13 @@
                     <dt>{lang}wcf.clanwars.sidebar.statistic.total{/lang}</dt>
                         <dd>{$playedClanwars}</dd>
                     <dt>{lang}wcf.clanwars.sidebar.statistic.won{/lang}</dt>
-                        <dd><span style="color:#008000;">{$playedClanwarsWon}</span></dd>
+                        <dd><span class="cw-won">{$playedClanwarsWon}</span></dd>
                     <dt>{lang}wcf.clanwars.sidebar.statistic.draw{/lang}</dt>
-                        <dd><span style="color:#D5C400;">{$playedClanwarsDraw}</span></dd>
+                        <dd><span class="cw-draw">{$playedClanwarsDraw}</span></dd>
                     <dt>{lang}wcf.clanwars.sidebar.statistic.loss{/lang}</dt>
-                        <dd><span style="color:#f00;">{$playedClanwarsLoss}</span></dd>
+                        <dd><span class="cw-loss">{$playedClanwarsLoss}</span></dd>
                     <dt>{lang}wcf.clanwars.sidebar.statistic.ratio{/lang}</dt>
-                        <dd><span style="color:{if $playedClanwarsRatio > 0}#008000{else}#f00{/if}">{$playedClanwarsRatio}</span></dd>
+                        <dd><span class="{if $playedClanwarsRatio > 0}cw-won{else}cw-loss{/if}">{$playedClanwarsRatio}</span></dd>
                 </dl>
             </div>
         </fieldset>
@@ -74,13 +74,13 @@
         {foreach from=$objects item=cw}
             {if $cw->active == 1}
             <tr>
-                <td style="text-align:center;">{if $cw->game == "bf4"}<img src="{$__wcf->getPath()}images/clanwars/bf4.gif" alt="BF4">{elseif $cw->game == "bfh"}<img src="{$__wcf->getPath()}images/clanwars/bfh.png" alt="BFH">{elseif $cw->game == "ro2"}<img src="{$__wcf->getPath()}images/clanwars/ro2.png" alt="RO2">{else}<img src="{$__wcf->getPath()}images/clanwars/cs.gif" alt="CS:GO">{/if}</td>
-                <td style="text-align:center;">{if $cw->platform == "ps3"}<img src="{$__wcf->getPath()}images/clanwars/ps3.png" alt="PS3">{elseif $cw->platform == "ps4"}<img src="{$__wcf->getPath()}images/clanwars/ps4.png" alt="PS4">{else}<img src="{$__wcf->getPath()}images/clanwars/pc.png" alt="PC">{/if}</td>
-                <td>{if $cw->status == "1"}<span style="color:#008000;">Gewonnen</span>{elseif $cw->status == "x"}<span style="color:#D5C400;">Unentschieden</span>{else}<span style="color:#f00;">Verloren</span>{/if}</td>
+                <td class="cw-game-icon">{if $cw->game == "bf4"}<img src="{$__wcf->getPath()}images/clanwars/bf4.gif" alt="BF4">{elseif $cw->game == "bfh"}<img src="{$__wcf->getPath()}images/clanwars/bfh.png" alt="BFH">{elseif $cw->game == "ro2"}<img src="{$__wcf->getPath()}images/clanwars/ro2.png" alt="RO2">{else}<img src="{$__wcf->getPath()}images/clanwars/cs.gif" alt="CS:GO">{/if}</td>
+                <td class="cw-game-icon">{if $cw->platform == "ps3"}<img src="{$__wcf->getPath()}images/clanwars/ps3.png" alt="PS3">{elseif $cw->platform == "ps4"}<img src="{$__wcf->getPath()}images/clanwars/ps4.png" alt="PS4">{else}<img src="{$__wcf->getPath()}images/clanwars/pc.png" alt="PC">{/if}</td>
+                <td>{if $cw->status == "1"}<span class="cw-won"">Gewonnen</span>{elseif $cw->status == "x"}<span class="cw-draw">Unentschieden</span>{else}<span class="cw-loss">Verloren</span>{/if}</td>
                 <td>{@$cw->time|time}</td>
                 <td>{if $cw->clanlink}<a href="{$cw->clanlink}" title="{$cw->clanname}">{$cw->clanname}</a>{else}{$cw->clanname}{/if}</td>
                 <td>{$cw->clantag}</td>
-                <td><span style="color: {if $cw->result_h > $cw->result_g}#008000{elseif $cw->result_h == $cw->result_g}#D5C400{else}#F00{/if}">{$cw->result_h}:{$cw->result_g}</span></td>
+                <td><span class="{if $cw->result_h > $cw->result_g}cw-won{elseif $cw->result_h == $cw->result_g}cw-draw{else}cw-loss{/if}">{$cw->result_h}:{$cw->result_g}</span></td>
                 <td>{$cw->gametype}</td>
                 <td>{$cw->xonx}</td>
                 <td>{$cw->league}</td>
