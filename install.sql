@@ -5,8 +5,8 @@ CREATE TABLE wcf1_clanwars (
 	game VARCHAR(40) NOT NULL,
 	platform VARCHAR(30) NOT NULL,
 	status VARCHAR(30) NOT NULL,
-	result_h INT(5) NOT NULL,
-	result_g INT(5) NOT NULL,
+	result_h INT(10) NOT NULL,
+	result_g INT(10) NOT NULL,
   time INT(10) DEFAULT 0,
   clanname VARCHAR(50) NOT NULL,
   clantag VARCHAR(20) NOT NULL,
@@ -15,5 +15,4 @@ CREATE TABLE wcf1_clanwars (
   xonx VARCHAR(6) NOT NULL,
   league VARCHAR(70) NOT NULL,
   maps TEXT NULL,
-  notes TEXT NULL
-;)
+  notes TEXT NULL;)
