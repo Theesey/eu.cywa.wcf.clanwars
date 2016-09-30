@@ -67,6 +67,9 @@
         <item name="wcf.clanwars.league"><![CDATA[Liga]]></item>
         <item name="wcf.clanwars.maps"><![CDATA[Maps]]></item>
         <item name="wcf.clanwars.notes"><![CDATA[Kommentar]]></item>
+        <item name="wcf.clanwars.won"><![CDATA[Gewonnen]]></item>
+        <item name="wcf.clanwars.draw"><![CDATA[Unentschieden]]></item>
+        <item name="wcf.clanwars.loss"><![CDATA[Verloren]]></item>
     </category>
     <category name="wcf.clanwars.sidebar">
         <item name="wcf.clanwars.sidebar.fightUs"><![CDATA[Herausfordern]]></item>

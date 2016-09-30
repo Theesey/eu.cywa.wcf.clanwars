@@ -107,4 +107,3 @@ class ClanwarsEditForm extends ClanwarsAddForm {
         ));
     }
 }
-?>
