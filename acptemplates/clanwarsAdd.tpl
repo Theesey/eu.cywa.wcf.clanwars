@@ -33,6 +33,7 @@
                         <option value="bfh">{lang}wcf.acp.clanwars.game.bfh{/lang}</option>
                         <option value="csgo">{lang}wcf.acp.clanwars.game.csgo{/lang}</option>
                         <option value="ro2">{lang}wcf.acp.clanwars.game.ro2{/lang}</option>
+                        <option value="rl">{lang}wcf.acp.clanwars.game.rl{/lang}</option>
                     </select>
                     {if $errorField == 'game'}
                         <small class="innerError">{lang}wcf.acp.clanwars.game.error.{$errorType}{/lang}</small>
